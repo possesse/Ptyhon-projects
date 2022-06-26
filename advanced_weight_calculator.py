@@ -1,29 +1,38 @@
+import os
+
+os.system('cls' if os.name == 'nt' else 'clear')
+print("Type Help to see all the commands available")
+
 while True:
 
-    weight = input("How much do you weigh: ")
-    kg_lbs_st = input("K(kg), L(lbs), S(st): ")
+    general_input = input("> ").lower()
+    if general_input == "help":
+        os.system('cls' if os.system == 'nt' else 'clear')
+        print("calc_weight - calculates any weight to K(kg), L(lbs), S(st)")
+        print("quit - exits program")
+    elif general_input == "calc_weight":
+        weight = int(input("How much do you weigh: "))
+        kg_lbs_st = input("K(kg), L(lbs), S(st): ").lower()
 
-    if kg_lbs_st in ['K', 'k']:
-        wtotal1 = int(weight) * 2.205
-        wtotal2 = int(weight) / 6.35
-        print("You weigh " + str(wtotal1) + " in lbs and")
-        print("You weigh " + str(wtotal2) + " in stones.")
-
-    elif kg_lbs_st in ['L', 'l']:
-        wtotal3 = int(weight) / 2.205
-        wtotal4 = int(weight) * 14
-        print("You weigh " + str(wtotal3) + " in kg and")
-        print("You weigh " + str(wtotal4) + " in stones.")
-
-    elif kg_lbs_st in ['S', 's']:
-        wtotal5 = int(weight) / 6.35
-        wtotal6 = int(weight) * 14
-        print ("You weigh " + str(wtotal5) + " in kg and")
-        print("You weigh " + str(wtotal6) + " in lbs.")
-    
-    next_calculation = input("Would you like to calculate more weight (yes/no): ")
-    if next_calculation == "no":
+        if kg_lbs_st == "k":
+            wtotal1 = weight * 0.45
+            wtotal2 = weight / 6.35
+            print(f"You weigh {wtotal1} in lbs and")
+            print(f"You weigh {wtotal2} in stones.")
+        elif kg_lbs_st == "l":
+            wtotal3 = weight / 0.45
+            wtotal4 = weight * 14
+            print(f"You weigh {wtotal3} in kg and")
+            print(f"You weigh {wtotal4} in stones.")
+        elif kg_lbs_st == "s":
+            wtotal5 = weight / 6.35
+            wtotal6 = weight * 14
+            print (f"You weigh {wtotal5} in kg and")
+            print(f"You weigh {wtotal6} in lbs.")
+        else:
+            print("Sry I don't understand that.")
+    elif general_input == "quit":
+        os.system('cls' if os.system == 'nt' else 'clear')
         break
     else:
-        print("Invalid Input")
-    
+        print("Sry but I don't understand that.")
