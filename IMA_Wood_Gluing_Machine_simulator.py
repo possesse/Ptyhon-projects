@@ -17,11 +17,6 @@ while True:
         print("3. Glue_wood - glues pvc on wood only when the machine is started")
         print("4. quit - switches off the computer of the mechine (sleep mode)")
     elif ima_terminal == "start":
-        #if stopped:
-            #print("Restarting the mechine, warming up...")
-        #elif #stopped:
-            #started = True
-            #print("Mechine has already Restarted!")
         if started:
             print("Mechine is already started!")        
         else:
