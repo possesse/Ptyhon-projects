@@ -1,6 +1,5 @@
 # IMA_COMPUTER_TERMINAL
 
-~In case you are wondering what the IMA_COMPUTER_TERMINAL is, it is the computer that the IMA WOOD GLUING MACHINE uses. My goal is to make it as realistic 
-as the real computer. There is no interface yet, there are many updates to come big changes and fixes to be made. Be aware that this is an alpha testing
-of the Terminal. I do need people to help me make this as realistic as can be. I would also like to tell you guys that if you want to take my code change
-edit it or make it better feel free to do so. If you would like to contact me, contact me at int main(masters)#4371 on discord.
+~In case you are wondering what the 1995 IMA_COMPUTER_TERMINAL is, it is the computer that the 1995 IMA WOOD GLUING MACHINE uses. My goal is to make it as realistic as the real computer. There is no interface yet, there are many updates to come big changes and fixes to be made. Be aware that this is an alpha testing of the Terminal. I do need people to help me make this as realistic as can be. I would also like to tell you guys that if you want to take my code change edit it or make it better feel free to do so. If you would like to contact me, contact me at int main(masters)#4371 on discord.
+
+~Falls Sie sich fragen, was das 1995 IMA_COMPUTER_TERMINAL ist, es ist der Computer, den die 1995 IMA WOOD GLUING MACHINE verwendet. Mein Ziel ist es, es so realistisch wie den echten Computer zu machen. Es gibt noch keine Schnittstelle, es werden viele Updates kommen, große Änderungen und Korrekturen müssen vorgenommen werden. Beachten Sie, dass dies ein Alpha-Test des Terminals ist. Ich brauche Leute, die mir helfen, das so realistisch wie möglich zu machen. Ich möchte euch auch sagen, dass ihr, wenn ihr meinen Code ändern wollt, ihn bearbeiten oder besser machen möchtet, dies gerne tun könnt. Wenn Sie mich kontaktieren möchten, kontaktieren Sie mich unter int main(masters)#4371 auf Discord.
