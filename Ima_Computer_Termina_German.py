@@ -2,14 +2,6 @@ import os
 from time import sleep
 os.system('cls' if os.name == 'nt' else 'clear')
 print(r"""
-
-
-
-
-
-
-
-
                                                                             ________________         ________        ________                  
                                                                            |                |       |      | \      / |      |                /‾‾‾‾\
                                                                            |______    ______|       |      |  \    /  |      |               /      \   
@@ -23,10 +15,6 @@ print(r"""
                                                                            |                |       |      |          |      |       /     /          \     \
                                                                             ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾         ‾‾‾‾‾‾            ‾‾‾‾‾‾        ‾‾‾‾‾‾            ‾‾‾‾‾‾
                                                                                                             IMA Scheling
-
-
-
-
 """)
 sleep(3)
 os.system('cls' if os.name == 'nt' else 'clear')
@@ -166,34 +154,33 @@ while True:
                     print("10┃ ┃010 pyxi2mmstogilo ┃corner rounding                                     ┃ 1.01.10")
                     print("11┃ ┃011 goma test      ┃                                                    ┃15.06.11\n")
                     try:
-                        try:
-                            prog = int(input("Wählen Sie ein Programm: "))
-                            assert 0 < prog < 12
-                        except AssertionError:
-                            print("Dieses Programm existiert nicht")
-                      if prog == 1:
-                          print("Dieses Programm ist nicht verfügbar!")
-                      elif prog == 11:
-                          print("Dies ist ein Leimtest, bei dem kein PVC auf das Holz geklebt wird")
-                          wood_width = int(input("Breite Holz: "))
-                          wood_length = int(input("Länge Holz: "))
-                          print(f"Kleben...")
-                          sleep(2)
-                          print(f"Klebetest erfolgreich {wood_length}!")
-                          sleep(2)
-                          print(f"Klebetest erfolgreich {wood_width}!")
-                     else:
-                          wood_width = int(input("Breite Holz: "))
-                          wood_length = int(input("Länge Holz: "))
-                          color_pvc = input("PVC-Farbe: ")
-                          print("Holzbreite verleimen...")
-                          sleep(2)
-                          print(f"Fertige Leimbreite von Holz {wood_width} mit {color_pvc} PVC auf Programm {prog}.")
-                          print("Holzlänge verleimen...")
-                          sleep(2)
-                          print(f"Fertig verleimte Holzlänge {wood_length} mit {color_pvc} PVC-Programm {prog}.")
-                    except ValueError:
-                        print("Ungültiger Wert! Beenden des Programms") 
+                        prog = int(input("Wählen Sie ein Programm: "))
+                        assert 0 < prog < 12
+                    except AssertionError:
+                        print("Dieses Programm existiert nicht")
+                        if prog == 1:
+                            print("Dieses Programm ist nicht verfügbar!")
+                        elif prog == 11:
+                            print("Dies ist ein Leimtest, bei dem kein PVC auf das Holz geklebt wird")
+                            wood_width = int(input("Breite Holz: "))
+                            wood_length = int(input("Länge Holz: "))
+                            print(f"Kleben...")
+                            sleep(2)
+                            print(f"Klebetest erfolgreich {wood_length}!")
+                            sleep(2)
+                            print(f"Klebetest erfolgreich {wood_width}!")
+                        else:
+                            wood_width = int(input("Breite Holz: "))
+                            wood_length = int(input("Länge Holz: "))
+                            color_pvc = input("PVC-Farbe: ")
+                            print("Holzbreite verleimen...")
+                            sleep(2)
+                            print(f"Fertige Leimbreite von Holz {wood_width} mit {color_pvc} PVC auf Programm {prog}.")
+                            print("Holzlänge verleimen...")
+                            sleep(2)
+                            print(f"Fertig verleimte Holzlänge {wood_length} mit {color_pvc} PVC-Programm {prog}.")
+            except ValueError:
+              print("Ungültiger Wert! Beenden des Programms") 
 
 #------------------------------------------------------------------------------------------
 
