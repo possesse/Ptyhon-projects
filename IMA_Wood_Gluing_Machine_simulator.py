@@ -47,7 +47,7 @@ while True:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("1. Start - starts and warms up the IMA machine")
         print("2. Stop - switches off the mechine")
-        print("3. Zeroing - zerpes every component in the machine so it works properly")
+        print("3. Zero - zerpes every component in the machine so it works properly")
         print("4. Cbelt - switches on the conveyor belt so you can glue wood")
         print("4. Glue_wood - glues pvc on wood only when the machine is started")
         print("5. Exit - switches off the computer of the mechine (computer shut down)")
